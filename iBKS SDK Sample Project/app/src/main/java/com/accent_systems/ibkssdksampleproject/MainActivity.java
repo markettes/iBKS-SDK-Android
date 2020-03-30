@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity implements ASScannerCallback
     void setupListClickListener(){
         devicesList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Stop the scan
                 Log.i(TAG, "SCAN STOPED");
                 ASBleScanner.stopScan();
@@ -299,7 +299,7 @@ public class MainActivity extends AppCompatActivity implements ASScannerCallback
     }
 
     @Override
-    public void scannedBleDevices(ScanResult result){
+        public void scannedBleDevices(ScanResult result){
 
         String advertisingString = ASResultParser.byteArrayToHex(result.getScanRecord().getBytes());
 

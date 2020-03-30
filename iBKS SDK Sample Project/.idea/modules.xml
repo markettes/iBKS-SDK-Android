@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/iBKSSDKSampleProject.iml" filepath="$PROJECT_DIR$/iBKSSDKSampleProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iBKS SDK Sample Project.iml" filepath="$PROJECT_DIR$/iBKS SDK Sample Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/iBKS SDK Sample Project-app.iml" filepath="$PROJECT_DIR$/app/iBKS SDK Sample Project-app.iml" />
     </modules>
   </component>
 </project>
